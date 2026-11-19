@@ -1,0 +1,736 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-11-19T13:30:44.446Z",
+  "title": "Design System: Passer",
+  "extensions": {
+    "colorMeta": {
+      "room": {
+        "role": "neutral",
+        "displayName": "Press-Room Grey",
+        "canonical": "#e4e5e7",
+        "cssVar": "--room",
+        "scheme": "light",
+        "oklch": "oklch(92.2% 0.003 264.5)",
+        "tonalRamp": [
+          "#0b0b0b",
+          "#252526",
+          "#414243",
+          "#616162",
+          "#828284",
+          "#a4a5a6",
+          "#c8c9cb",
+          "#eeeeef"
+        ]
+      },
+      "panel": {
+        "role": "neutral",
+        "displayName": "Ticket White",
+        "canonical": "#ffffff",
+        "cssVar": "--panel",
+        "scheme": "light",
+        "oklch": "oklch(100.0% 0.000 89.9)",
+        "tonalRamp": [
+          "#0b0b0b",
+          "#252525",
+          "#424242",
+          "#616161",
+          "#828282",
+          "#a5a5a5",
+          "#c9c9c9",
+          "#eeeeee"
+        ]
+      },
+      "ink": {
+        "role": "primary",
+        "displayName": "Press Black",
+        "canonical": "#1a1a1a",
+        "cssVar": "--ink",
+        "scheme": "light",
+        "oklch": "oklch(21.8% 0.000 89.9)",
+        "tonalRamp": [
+          "#0b0b0b",
+          "#252525",
+          "#424242",
+          "#616161",
+          "#828282",
+          "#a5a5a5",
+          "#c9c9c9",
+          "#eeeeee"
+        ]
+      },
+      "ink-2": {
+        "role": "neutral",
+        "displayName": "Secondary Ink",
+        "canonical": "#55585d",
+        "cssVar": "--ink-2",
+        "scheme": "light",
+        "oklch": "oklch(45.9% 0.009 260.7)",
+        "tonalRamp": [
+          "#0a0b0d",
+          "#232529",
+          "#3f4247",
+          "#5e6166",
+          "#808287",
+          "#a2a5a9",
+          "#c7c9cd",
+          "#edeef0"
+        ]
+      },
+      "rule": {
+        "role": "neutral",
+        "displayName": "Hairline Rule",
+        "canonical": "#c9cbcf",
+        "cssVar": "--rule",
+        "scheme": "light",
+        "oklch": "oklch(84.2% 0.006 264.5)",
+        "tonalRamp": [
+          "#0b0b0c",
+          "#242527",
+          "#414244",
+          "#606164",
+          "#818285",
+          "#a3a5a8",
+          "#c7c9cd",
+          "#edeef0"
+        ]
+      },
+      "rule-soft": {
+        "role": "neutral",
+        "displayName": "Soft Rule",
+        "canonical": "#e1e2e5",
+        "cssVar": "--rule-soft",
+        "scheme": "light",
+        "oklch": "oklch(91.3% 0.004 271.4)",
+        "tonalRamp": [
+          "#0b0b0b",
+          "#252526",
+          "#414243",
+          "#606163",
+          "#818284",
+          "#a4a5a7",
+          "#c8c9cc",
+          "#eeeef0"
+        ]
+      },
+      "fill": {
+        "role": "neutral",
+        "displayName": "Wash",
+        "canonical": "#f3f4f5",
+        "cssVar": "--fill",
+        "scheme": "light",
+        "oklch": "oklch(96.7% 0.002 247.8)",
+        "tonalRamp": [
+          "#0b0b0b",
+          "#252525",
+          "#424242",
+          "#616162",
+          "#828283",
+          "#a4a5a6",
+          "#c8c9ca",
+          "#eeeeef"
+        ]
+      },
+      "on-ink": {
+        "role": "neutral",
+        "displayName": "On-Ink White",
+        "canonical": "#ffffff",
+        "cssVar": "--on-ink",
+        "scheme": "light",
+        "oklch": "oklch(100.0% 0.000 89.9)",
+        "tonalRamp": [
+          "#0b0b0b",
+          "#252525",
+          "#424242",
+          "#616161",
+          "#828282",
+          "#a5a5a5",
+          "#c9c9c9",
+          "#eeeeee"
+        ]
+      },
+      "process-cyan": {
+        "role": "secondary",
+        "displayName": "Process Cyan",
+        "canonical": "#00a0e3",
+        "cssVar": "--cyan",
+        "scheme": "light",
+        "oklch": "oklch(66.9% 0.147 237.2)",
+        "tonalRamp": [
+          "#000d1a",
+          "#00294d",
+          "#004875",
+          "#00699f",
+          "#008cca",
+          "#37b1f1",
+          "#71d5ff",
+          "#ccf5ff"
+        ]
+      },
+      "cyan-ink": {
+        "role": "secondary",
+        "displayName": "Cyan Focus Ink",
+        "canonical": "#0077b0",
+        "cssVar": "--cyan-ink",
+        "scheme": "light",
+        "oklch": "oklch(54.3% 0.125 240.1)",
+        "tonalRamp": [
+          "#000d1b",
+          "#00284e",
+          "#004775",
+          "#00689d",
+          "#318ac1",
+          "#62aee1",
+          "#8fd2ff",
+          "#d7f3ff"
+        ]
+      },
+      "process-magenta": {
+        "role": "tertiary",
+        "displayName": "Process Magenta",
+        "canonical": "#e5007e",
+        "cssVar": "--magenta",
+        "scheme": "light",
+        "oklch": "oklch(59.9% 0.244 358.4)",
+        "tonalRamp": [
+          "#21000b",
+          "#5b0024",
+          "#880041",
+          "#b70060",
+          "#e81081",
+          "#ff5aa3",
+          "#ff8cc8",
+          "#ffd7ee"
+        ]
+      },
+      "magenta-ink": {
+        "role": "tertiary",
+        "displayName": "Magenta Ink",
+        "canonical": "#b1005f",
+        "cssVar": "--magenta-ink",
+        "scheme": "light",
+        "oklch": "oklch(49.3% 0.201 358.9)",
+        "tonalRamp": [
+          "#20000a",
+          "#580023",
+          "#830040",
+          "#b1005f",
+          "#d24780",
+          "#f374a3",
+          "#ffa0c7",
+          "#ffdeee"
+        ]
+      },
+      "process-yellow": {
+        "role": "tertiary",
+        "displayName": "Process Yellow",
+        "canonical": "#ffed00",
+        "cssVar": "--yellow",
+        "scheme": "light",
+        "oklch": "oklch(93.1% 0.197 104.0)",
+        "tonalRamp": [
+          "#0e0c00",
+          "#2d2600",
+          "#4c4300",
+          "#6e6300",
+          "#918500",
+          "#b7a800",
+          "#decd00",
+          "#f9f2a6"
+        ]
+      },
+      "ghost-yellow": {
+        "role": "tertiary",
+        "displayName": "Ghost Yellow",
+        "canonical": "#f2c500",
+        "cssVar": null,
+        "scheme": "light",
+        "oklch": "oklch(83.9% 0.172 92.1)",
+        "tonalRamp": [
+          "#110a00",
+          "#352200",
+          "#563e00",
+          "#7a5d00",
+          "#a07e00",
+          "#c8a000",
+          "#f1c400",
+          "#ffeeb3"
+        ]
+      },
+      "paper": {
+        "role": "neutral",
+        "displayName": "Paper",
+        "canonical": "#ffffff",
+        "cssVar": "--paper",
+        "scheme": "both",
+        "oklch": "oklch(100.0% 0.000 89.9)",
+        "tonalRamp": [
+          "#0b0b0b",
+          "#252525",
+          "#424242",
+          "#616161",
+          "#828282",
+          "#a5a5a5",
+          "#c9c9c9",
+          "#eeeeee"
+        ]
+      },
+      "paper-ink": {
+        "role": "neutral",
+        "displayName": "Paper Ink",
+        "canonical": "#1a1a1a",
+        "cssVar": "--paper-ink",
+        "scheme": "both",
+        "oklch": "oklch(21.8% 0.000 89.9)",
+        "tonalRamp": [
+          "#0b0b0b",
+          "#252525",
+          "#424242",
+          "#616161",
+          "#828282",
+          "#a5a5a5",
+          "#c9c9c9",
+          "#eeeeee"
+        ]
+      },
+      "paper-ink-2": {
+        "role": "neutral",
+        "displayName": "Paper Secondary Ink",
+        "canonical": "#55585d",
+        "cssVar": "--paper-ink-2",
+        "scheme": "both",
+        "oklch": "oklch(45.9% 0.009 260.7)",
+        "tonalRamp": [
+          "#0a0b0d",
+          "#232529",
+          "#3f4247",
+          "#5e6166",
+          "#808287",
+          "#a2a5a9",
+          "#c7c9cd",
+          "#edeef0"
+        ]
+      },
+      "room-dark": {
+        "role": "neutral",
+        "displayName": "Charcoal Room (dark)",
+        "canonical": "#18191b",
+        "cssVar": "--room",
+        "scheme": "dark",
+        "oklch": "oklch(21.3% 0.004 264.5)",
+        "tonalRamp": [
+          "#0b0b0c",
+          "#242527",
+          "#414244",
+          "#606163",
+          "#818284",
+          "#a4a5a6",
+          "#c8c9ca",
+          "#eeeeef"
+        ]
+      },
+      "panel-dark": {
+        "role": "neutral",
+        "displayName": "Graphite Ticket (dark)",
+        "canonical": "#212225",
+        "cssVar": "--panel",
+        "scheme": "dark",
+        "oklch": "oklch(25.2% 0.006 271.2)",
+        "tonalRamp": [
+          "#0b0b0c",
+          "#242528",
+          "#414245",
+          "#606164",
+          "#818285",
+          "#a4a5a7",
+          "#c8c9cb",
+          "#eeeeef"
+        ]
+      },
+      "ink-dark": {
+        "role": "primary",
+        "displayName": "Off-White Ink (dark)",
+        "canonical": "#ececed",
+        "cssVar": "--ink",
+        "scheme": "dark",
+        "oklch": "oklch(94.3% 0.001 286.4)",
+        "tonalRamp": [
+          "#0b0b0b",
+          "#252525",
+          "#424242",
+          "#616162",
+          "#828283",
+          "#a5a5a6",
+          "#c9c9ca",
+          "#eeeeef"
+        ]
+      },
+      "ink-2-dark": {
+        "role": "neutral",
+        "displayName": "Secondary Ink (dark)",
+        "canonical": "#a5a8ad",
+        "cssVar": "--ink-2",
+        "scheme": "dark",
+        "oklch": "oklch(73.1% 0.008 260.7)",
+        "tonalRamp": [
+          "#0b0b0c",
+          "#242527",
+          "#404245",
+          "#5f6165",
+          "#808287",
+          "#a2a5aa",
+          "#c6c9ce",
+          "#edeef1"
+        ]
+      },
+      "rule-dark": {
+        "role": "neutral",
+        "displayName": "Hairline Rule (dark)",
+        "canonical": "#3d3f44",
+        "cssVar": "--rule",
+        "scheme": "dark",
+        "oklch": "oklch(36.8% 0.009 268.4)",
+        "tonalRamp": [
+          "#0a0b0d",
+          "#232529",
+          "#404247",
+          "#5f6166",
+          "#808287",
+          "#a3a5a9",
+          "#c7c9cd",
+          "#eeeef0"
+        ]
+      },
+      "rule-soft-dark": {
+        "role": "neutral",
+        "displayName": "Soft Rule (dark)",
+        "canonical": "#2e3034",
+        "cssVar": "--rule-soft",
+        "scheme": "dark",
+        "oklch": "oklch(30.9% 0.008 264.5)",
+        "tonalRamp": [
+          "#0a0b0d",
+          "#232529",
+          "#404246",
+          "#5f6165",
+          "#808286",
+          "#a3a5a8",
+          "#c8c9cc",
+          "#eeeef0"
+        ]
+      },
+      "fill-dark": {
+        "role": "neutral",
+        "displayName": "Wash (dark)",
+        "canonical": "#2a2c30",
+        "cssVar": "--fill",
+        "scheme": "dark",
+        "oklch": "oklch(29.3% 0.008 264.4)",
+        "tonalRamp": [
+          "#0a0b0d",
+          "#232529",
+          "#404246",
+          "#5f6165",
+          "#808286",
+          "#a3a5a8",
+          "#c8c9cc",
+          "#eeeef0"
+        ]
+      },
+      "on-ink-dark": {
+        "role": "neutral",
+        "displayName": "On-Ink (dark)",
+        "canonical": "#18191b",
+        "cssVar": "--on-ink",
+        "scheme": "dark",
+        "oklch": "oklch(21.3% 0.004 264.5)",
+        "tonalRamp": [
+          "#0b0b0c",
+          "#242527",
+          "#414244",
+          "#606163",
+          "#818284",
+          "#a4a5a6",
+          "#c8c9ca",
+          "#eeeeef"
+        ]
+      },
+      "cyan-ink-dark": {
+        "role": "secondary",
+        "displayName": "Cyan Focus Ink (dark)",
+        "canonical": "#3cbcf2",
+        "cssVar": "--cyan-ink",
+        "scheme": "dark",
+        "oklch": "oklch(74.9% 0.133 230.9)",
+        "tonalRamp": [
+          "#000d16",
+          "#002a44",
+          "#004969",
+          "#006b91",
+          "#178ebb",
+          "#35b3e7",
+          "#6ad8ff",
+          "#caf6ff"
+        ]
+      },
+      "magenta-ink-dark": {
+        "role": "tertiary",
+        "displayName": "Magenta Ink (dark)",
+        "canonical": "#ff5aa8",
+        "cssVar": "--magenta-ink",
+        "scheme": "dark",
+        "oklch": "oklch(70.8% 0.212 354.7)",
+        "tonalRamp": [
+          "#1c010c",
+          "#4f0029",
+          "#790246",
+          "#a62567",
+          "#d54189",
+          "#ff60ac",
+          "#ff8fd0",
+          "#ffd8f2"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Display",
+        "purpose": "Index page heading only; 32px under 640px."
+      },
+      "headline": {
+        "displayName": "Headline",
+        "purpose": "A tool's h1 at the top of its ticket; balanced wrap; 26px under 640px."
+      },
+      "wordmark": {
+        "displayName": "Wordmark",
+        "purpose": "\"Passer\" beside the registration mark; 19px under 640px."
+      },
+      "title": {
+        "displayName": "Title",
+        "purpose": "A tool's name in an index entry."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "Prose and inputs; tabular numerals globally; lede in Secondary Ink, max 60ch."
+      },
+      "control": {
+        "displayName": "Control",
+        "purpose": "Segments and tiles at 14px, tabs at 15px; buttons use 700 at 15px."
+      },
+      "label": {
+        "displayName": "Label",
+        "purpose": "Field label above every control."
+      },
+      "section": {
+        "displayName": "Section",
+        "purpose": "Uppercase fieldset legend in the ticket, Secondary Ink, soft rule above. Never above a heading."
+      },
+      "hint": {
+        "displayName": "Hint",
+        "purpose": "Help text under a control, max 62ch."
+      },
+      "slug": {
+        "displayName": "Slug",
+        "purpose": "The proof's slug line; first item bold uppercase 0.04em. Patch captions 650 at 11px."
+      }
+    },
+    "shadows": [
+      {
+        "name": "sheet-lift",
+        "value": "0 22px 44px -24px rgba(20,22,26,0.45), 0 2px 6px rgba(20,22,26,0.08)",
+        "purpose": "The proof sheet only (light scheme)."
+      },
+      {
+        "name": "sheet-lift-dark",
+        "value": "0 24px 50px -20px rgba(0,0,0,0.7), 0 0 0 1px rgba(255,255,255,0.04)",
+        "purpose": "The proof sheet only (dark scheme)."
+      },
+      {
+        "name": "thumbnail-lift",
+        "value": "0 6px 14px -8px rgba(0,0,0,0.35)",
+        "purpose": "Paper thumbnail in an index entry."
+      },
+      {
+        "name": "entry-hover",
+        "value": "0 10px 24px -18px rgba(0,0,0,0.5)",
+        "purpose": "Index entry on hover, with ink border."
+      },
+      {
+        "name": "primary-ring",
+        "value": "0 0 0 3px var(--rule)",
+        "purpose": "Hover on the black primary button."
+      }
+    ],
+    "motion": [
+      {
+        "name": "ease",
+        "value": "cubic-bezier(0.16, 1, 0.3, 1)",
+        "purpose": "Exponential ease-out: re-registration, brand-mark hover, entry hover shadow."
+      },
+      {
+        "name": "state",
+        "value": "150ms",
+        "purpose": "Background, colour and border changes on every control."
+      },
+      {
+        "name": "press",
+        "value": "transform 100ms, translateY(1px)",
+        "purpose": "Button active state."
+      },
+      {
+        "name": "brand-hover",
+        "value": "color 200ms var(--ease)",
+        "purpose": "Registration mark turns magenta on hover."
+      },
+      {
+        "name": "re-register",
+        "value": "260ms var(--ease), 20ms stagger, 160ms debounce, offsets (3,-2) (-2.5,2) (1.5,3) px at opacity 0.95 to 0",
+        "purpose": "Signature: C/M/Y ghosts of the proof marks slip out of register and snap back after the output changes. Not on first render; none under reduced motion."
+      },
+      {
+        "name": "reduced-motion",
+        "value": "0.01ms",
+        "purpose": "prefers-reduced-motion: reduce collapses every transition and animation."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "stack",
+        "value": "960px"
+      },
+      {
+        "name": "phone",
+        "value": "640px"
+      },
+      {
+        "name": "export-strip-container",
+        "value": "560px"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary Button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "Press Black, one per view: the action that finishes the job (Download).",
+      "html": "<button class=\"ds-btn ds-btn-primary\"><svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.75\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M12 3.5v12M7 10.5l5 5 5-5M4 20.5h16\"/></svg>Download</button>",
+      "css": ".ds-btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;height:42px;padding:0 16px;border-radius:8px;border:1px solid var(--ink, #1a1a1a);background:var(--panel, #ffffff);color:var(--ink, #1a1a1a);font:700 15px/1 var(--font, 'Hanken Grotesk Variable', 'Hanken Grotesk', system-ui, sans-serif);white-space:nowrap;cursor:pointer;transition:background-color .15s,color .15s,border-color .15s,transform .1s;} .ds-btn:active{transform:translateY(1px)} .ds-btn:focus-visible{outline:2px solid var(--cyan-ink, #0077b0);outline-offset:2px} .ds-btn-primary{background:var(--ink, #1a1a1a);color:var(--on-ink, #ffffff);padding:0 22px} .ds-btn-primary:hover{background:var(--ink, #1a1a1a);box-shadow:0 0 0 3px var(--rule, #c9cbcf)}"
+    },
+    {
+      "name": "Ghost Button",
+      "kind": "button",
+      "refersTo": "button-ghost",
+      "description": "Hairline-bordered secondary action (Copy, Swap, Show); dashed, not faded, when disabled.",
+      "html": "<div style=\"display:flex;gap:10px\"><button class=\"ds-btn-g\"><svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.75\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><rect x=\"8.5\" y=\"8.5\" width=\"12\" height=\"12\" rx=\"1.5\"/><path d=\"M15.5 8.5V5a1.5 1.5 0 0 0-1.5-1.5H5A1.5 1.5 0 0 0 3.5 5v9A1.5 1.5 0 0 0 5 15.5h3.5\"/></svg>Copy</button><button class=\"ds-btn-g\" disabled>Copy</button></div>",
+      "css": ".ds-btn-g{display:inline-flex;align-items:center;justify-content:center;gap:8px;height:42px;padding:0 16px;border-radius:8px;border:1px solid var(--ink, #1a1a1a);background:var(--panel, #ffffff);color:var(--ink, #1a1a1a);font:700 15px/1 var(--font, 'Hanken Grotesk Variable', 'Hanken Grotesk', system-ui, sans-serif);white-space:nowrap;cursor:pointer;transition:background-color .15s,color .15s,border-color .15s,transform .1s;border-color:var(--rule, #c9cbcf)} .ds-btn-g:hover{background:var(--fill, #f3f4f5);border-color:var(--ink-2, #55585d)} .ds-btn-g:active{transform:translateY(1px)} .ds-btn-g:focus-visible{outline:2px solid var(--cyan-ink, #0077b0);outline-offset:2px} .ds-btn-g:disabled{cursor:not-allowed;color:var(--ink-2, #55585d);border-color:var(--rule, #c9cbcf);border-style:dashed;background:transparent;transform:none}"
+    },
+    {
+      "name": "Text Field",
+      "kind": "input",
+      "refersTo": "input",
+      "description": "Label above, 42px hairline field, hint below; cyan-ink focus, magenta-ink when invalid.",
+      "html": "<div class=\"ds-field\"><label class=\"ds-lbl\" for=\"ds-u\">Web address</label><input id=\"ds-u\" class=\"ds-input\" value=\"cafe-nord.de/menu\"><p class=\"ds-hint\">https:// is added if you leave it out.</p></div>",
+      "css": ".ds-field{font-family:var(--font, 'Hanken Grotesk Variable', 'Hanken Grotesk', system-ui, sans-serif);color:var(--ink, #1a1a1a);max-width:420px} .ds-lbl{display:block;font-size:13px;font-weight:700;margin-bottom:8px} .ds-input{display:block;width:100%;box-sizing:border-box;height:42px;padding:0 12px;border:1px solid var(--rule, #c9cbcf);border-radius:8px;background:var(--panel, #ffffff);color:var(--ink, #1a1a1a);font:400 15px var(--font, 'Hanken Grotesk Variable', 'Hanken Grotesk', system-ui, sans-serif);transition:border-color .15s} .ds-input:hover{border-color:var(--ink-2, #55585d)} .ds-input:focus-visible{outline:2px solid var(--cyan-ink, #0077b0);outline-offset:-1px;border-color:var(--cyan-ink, #0077b0)} .ds-input[aria-invalid=true]{border-color:var(--magenta-ink, #b1005f)} .ds-hint{font-size:13px;line-height:1.45;color:var(--ink-2, #55585d);margin:6px 0 0}"
+    },
+    {
+      "name": "Segmented Control",
+      "kind": "chip",
+      "refersTo": "segment",
+      "description": "The main chooser: one ruled bar, the selected option solid Press Black, a secondary value in small type.",
+      "html": "<div class=\"ds-seg\" role=\"radiogroup\"><button>Low <small>7 %</small></button><button aria-pressed=\"true\">Medium <small>15 %</small></button><button>High <small>25 %</small></button><button>Highest <small>30 %</small></button></div>",
+      "css": ".ds-seg{display:inline-flex;border:1px solid var(--rule, #c9cbcf);border-radius:8px;background:var(--panel, #ffffff);overflow:hidden;font-family:var(--font, 'Hanken Grotesk Variable', 'Hanken Grotesk', system-ui, sans-serif)} .ds-seg>button{display:flex;align-items:center;gap:6px;min-height:40px;padding:0 14px;border:0;border-right:1px solid var(--rule, #c9cbcf);background:none;color:var(--ink, #1a1a1a);font:650 14px var(--font, 'Hanken Grotesk Variable', 'Hanken Grotesk', system-ui, sans-serif);font-variant-numeric:tabular-nums;cursor:pointer;transition:background-color .15s,color .15s} .ds-seg>button:last-child{border-right:0} .ds-seg>button:hover{background:var(--fill, #f3f4f5)} .ds-seg>button[aria-pressed=true]{background:var(--ink, #1a1a1a);color:var(--on-ink, #ffffff)} .ds-seg>button:focus-visible{outline:2px solid var(--cyan-ink, #0077b0);outline-offset:-4px;border-radius:6px} .ds-seg small{font-size:12px;font-weight:500;opacity:.75}"
+    },
+    {
+      "name": "Content-Type Tile",
+      "kind": "chip",
+      "refersTo": "kind-tile",
+      "description": "Icon plus word radio tile in a 4-up grid; selected is solid Press Black.",
+      "html": "<div class=\"ds-kinds\"><span class=\"ds-kind\" tabindex=\"0\"><svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.75\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M5 6h14M5 10.5h14M5 15h9M5 19.5h6\"/></svg>Text</span><span class=\"ds-kind on\" tabindex=\"0\"><svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.75\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M10.5 13.5a3.5 3.5 0 0 0 5 0l3-3a3.5 3.5 0 0 0-5-5l-1 1\"/><path d=\"M13.5 10.5a3.5 3.5 0 0 0-5 0l-3 3a3.5 3.5 0 0 0 5 5l1-1\"/></svg>Link</span><span class=\"ds-kind\" tabindex=\"0\"><svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.75\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M2.5 9a14 14 0 0 1 19 0\"/><path d=\"M5.5 12.5a9.5 9.5 0 0 1 13 0\"/><path d=\"M8.5 16a5 5 0 0 1 7 0\"/></svg>WiFi</span></div>",
+      "css": ".ds-kinds{display:grid;grid-template-columns:repeat(3,120px);gap:6px;font-family:var(--font, 'Hanken Grotesk Variable', 'Hanken Grotesk', system-ui, sans-serif)} .ds-kind{display:flex;align-items:center;gap:8px;min-height:44px;padding:0 10px;border:1px solid var(--rule, #c9cbcf);border-radius:8px;font-weight:650;font-size:14px;color:var(--ink, #1a1a1a);cursor:pointer;transition:background-color .15s,color .15s,border-color .15s} .ds-kind:hover{border-color:var(--ink-2, #55585d)} .ds-kind.on{background:var(--ink, #1a1a1a);border-color:var(--ink, #1a1a1a);color:var(--on-ink, #ffffff)} .ds-kind:focus-visible{outline:2px solid var(--cyan-ink, #0077b0);outline-offset:2px}"
+    },
+    {
+      "name": "Header and Tabs",
+      "kind": "nav",
+      "refersTo": "tab",
+      "description": "Sticky white bar: registration-mark wordmark, tool tabs with a solid current tab, status line at the end.",
+      "html": "<header class=\"ds-bar\"><a class=\"ds-brand\" href=\"#\"><svg class=\"ds-reg\" width=\"22\" height=\"22\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.75\"><circle cx=\"12\" cy=\"12\" r=\"6.5\"/><path d=\"M12 1.5v21M1.5 12h21\"/><circle cx=\"12\" cy=\"12\" r=\"2.6\" fill=\"currentColor\" stroke=\"none\"/></svg>Passer</a><nav class=\"ds-tabs\"><a class=\"ds-tab\" aria-current=\"page\" href=\"#\">QR code</a><a class=\"ds-tab\" href=\"#\">All tools</a></nav><span class=\"ds-status\">Nothing leaves this device</span></header>",
+      "css": ".ds-bar{display:flex;align-items:center;gap:20px;height:60px;padding:0 24px;background:var(--panel, #ffffff);border-bottom:1px solid var(--rule, #c9cbcf);font-family:var(--font, 'Hanken Grotesk Variable', 'Hanken Grotesk', system-ui, sans-serif);color:var(--ink, #1a1a1a)} .ds-brand{display:inline-flex;align-items:center;gap:10px;font-size:22px;font-weight:800;letter-spacing:-.02em;text-decoration:none;color:inherit} .ds-reg{transition:color .2s var(--ease, cubic-bezier(0.16, 1, 0.3, 1))} .ds-brand:hover .ds-reg{color:var(--magenta, #e5007e)} .ds-tabs{display:flex;gap:4px} .ds-tab{padding:7px 14px;border-radius:8px;font-weight:650;font-size:15px;color:var(--ink-2, #55585d);text-decoration:none;transition:background-color .15s,color .15s} .ds-tab:hover{color:var(--ink, #1a1a1a);background:var(--fill, #f3f4f5)} .ds-tab[aria-current=page]{background:var(--ink, #1a1a1a);color:var(--on-ink, #ffffff)} .ds-tab:focus-visible{outline:2px solid var(--cyan-ink, #0077b0);outline-offset:2px} .ds-status{margin-left:auto;font-size:14px;color:var(--ink-2, #55585d)}"
+    },
+    {
+      "name": "Contrast Verdict",
+      "kind": "custom",
+      "refersTo": "ratio-chip",
+      "description": "Ratio chip and a plain-language verdict; magenta when the code will not scan.",
+      "html": "<div class=\"ds-verdict\"><span class=\"ds-ratio\">17 : 1</span><span class=\"ds-line\"><svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.75\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"m4.5 12.5 5 5 10-11\"/></svg>Strong contrast, scans reliably.</span></div><div class=\"ds-verdict\"><span class=\"ds-ratio bad\">2.6 : 1</span><span class=\"ds-line bad\"><svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.75\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M12 3.5 2.5 20h19Z\"/><path d=\"M12 10v4.5\"/></svg>Too little contrast. This code will probably not scan.</span></div>",
+      "css": ".ds-verdict{display:flex;align-items:flex-start;gap:12px;margin-bottom:10px;font-family:var(--font, 'Hanken Grotesk Variable', 'Hanken Grotesk', system-ui, sans-serif);color:var(--ink, #1a1a1a)} .ds-ratio{padding:3px 9px;border-radius:5px;background:var(--ink, #1a1a1a);color:var(--on-ink, #ffffff);font-weight:750;font-size:13px;font-variant-numeric:tabular-nums} .ds-ratio.bad{background:var(--magenta, #e5007e);color:#fff} .ds-line{display:flex;gap:8px;align-items:center;font-weight:600;font-size:14px} .ds-line.bad{color:var(--magenta-ink, #b1005f)}"
+    },
+    {
+      "name": "Proof Sheet",
+      "kind": "custom",
+      "refersTo": "proof-sheet",
+      "description": "Signature: square paper with crop marks, side registration targets, control strip and slug line; paper-white in both schemes; C/M/Y ghosts re-register on change.",
+      "html": "<div class=\"ds-room\"><div class=\"ds-sheet\"><i class=\"ds-cm tl\"></i><i class=\"ds-cm tr\"></i><i class=\"ds-cm bl\"></i><i class=\"ds-cm br\"></i><svg class=\"ds-tg l\" viewBox=\"0 0 24 24\"><circle cx=\"12\" cy=\"12\" r=\"6.5\"/><path d=\"M12 1.5v21M1.5 12h21\"/></svg><svg class=\"ds-tg r\" viewBox=\"0 0 24 24\"><circle cx=\"12\" cy=\"12\" r=\"6.5\"/><path d=\"M12 1.5v21M1.5 12h21\"/></svg><svg class=\"ds-glyph\" viewBox=\"0 0 21 21\" shape-rendering=\"crispEdges\"><path fill=\"currentColor\" fill-rule=\"evenodd\" d=\"M0 0h7v7H0zM1 1v5h5V1zM2 2h3v3H2zM14 0h7v7h-7zM15 1v5h5V1zM16 2h3v3h-3zM0 14h7v7H0zM1 15v5h5v-5zM2 16h3v3H2zM9 0h2v2H9zM8 3h1v3H8zM10 4h2v1h-2zM9 8h3v2H9zM14 9h2v3h-2zM17 8h3v1h-3zM18 10h2v2h-2zM8 13h2v2H8zM11 12h2v1h-2zM12 14h3v2h-3zM9 17h2v4H9zM12 18h1v3h-1zM14 17h3v1h-3zM16 19h2v2h-2zM19 15h2v3h-2zM0 9h2v1H0zM3 8h2v3H3zM1 11h1v2H1z\"/></svg><div class=\"ds-strip\"><span style=\"background:#1a1a1a\"></span><span style=\"background:#fff\"></span><span style=\"background:#00a0e3\"></span><span style=\"background:#e5007e\"></span><span style=\"background:#ffed00\"></span><span style=\"background:#1a1a1a\"></span></div><p class=\"ds-slug\"><b>Passer · QR</b><span>1000 × 1000 px · 8.5 cm at 300 dpi · Medium · Blank edge 4</span><span>19 Nov 2026</span></p></div></div>",
+      "css": ".ds-room{background:var(--room, #e4e5e7);padding:28px;font-family:var(--font, 'Hanken Grotesk Variable', 'Hanken Grotesk', system-ui, sans-serif)} .ds-sheet{position:relative;max-width:360px;margin:auto;background:#fff;color:#1a1a1a;padding:44px 40px 24px;box-shadow:0 22px 44px -24px rgba(20,22,26,.45),0 2px 6px rgba(20,22,26,.08);display:flex;flex-direction:column;align-items:center} .ds-cm{position:absolute;width:20px;height:20px;border:0 solid currentColor} .ds-cm.tl{top:12px;left:12px;border-right-width:1px;border-bottom-width:1px} .ds-cm.tr{top:12px;right:12px;border-left-width:1px;border-bottom-width:1px} .ds-cm.bl{bottom:12px;left:12px;border-right-width:1px;border-top-width:1px} .ds-cm.br{bottom:12px;right:12px;border-left-width:1px;border-top-width:1px} .ds-tg{position:absolute;top:50%;width:18px;height:18px;margin-top:-9px;fill:none;stroke:currentColor;stroke-width:1} .ds-tg.l{left:10px} .ds-tg.r{right:10px} .ds-glyph{width:180px;height:180px} .ds-strip{display:grid;grid-template-columns:2fr 2fr 1fr 1fr 1fr 1fr;width:100%;height:20px;margin-top:20px;border:1px solid #1a1a1a} .ds-strip span+span{border-left:1px solid #1a1a1a} .ds-slug{display:flex;flex-wrap:wrap;justify-content:space-between;gap:2px 12px;width:100%;margin:18px 0 0;font-size:11.5px;color:#55585d;font-variant-numeric:tabular-nums} .ds-slug b{color:#1a1a1a;letter-spacing:.04em;text-transform:uppercase}"
+    },
+    {
+      "name": "Index Entry",
+      "kind": "card",
+      "refersTo": "tool-entry",
+      "description": "A tool in the index: paper thumbnail with crop marks, name and summary, Open.",
+      "html": "<a class=\"ds-entry\" href=\"#\"><span class=\"ds-thumb\"><i class=\"ds-c tl\"></i><i class=\"ds-c br\"></i><svg width=\"52\" height=\"52\" viewBox=\"0 0 21 21\" shape-rendering=\"crispEdges\"><path fill=\"currentColor\" fill-rule=\"evenodd\" d=\"M0 0h7v7H0zM1 1v5h5V1zM2 2h3v3H2zM14 0h7v7h-7zM15 1v5h5V1zM16 2h3v3h-3zM0 14h7v7H0zM1 15v5h5v-5zM2 16h3v3H2zM9 0h2v2H9zM8 3h1v3H8zM10 4h2v1h-2zM9 8h3v2H9zM14 9h2v3h-2zM17 8h3v1h-3zM18 10h2v2h-2zM8 13h2v2H8zM11 12h2v1h-2zM12 14h3v2h-3zM9 17h2v4H9zM12 18h1v3h-1zM14 17h3v1h-3zM16 19h2v2h-2zM19 15h2v3h-2zM0 9h2v1H0zM3 8h2v3H3zM1 11h1v2H1z\"/></svg></span><span class=\"ds-txt\"><strong>QR code</strong><span>Links, WiFi, contacts. PNG, JPEG, WEBP or SVG.</span></span><span class=\"ds-open\">Open <svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.75\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M4.5 12h15M13.5 6l6 6-6 6\"/></svg></span></a>",
+      "css": ".ds-entry{display:grid;grid-template-columns:auto 1fr auto;align-items:center;gap:24px;padding:16px 24px 16px 16px;background:var(--panel, #ffffff);color:var(--ink, #1a1a1a);border:1px solid var(--rule, #c9cbcf);border-radius:12px;text-decoration:none;font-family:var(--font, 'Hanken Grotesk Variable', 'Hanken Grotesk', system-ui, sans-serif);transition:border-color .15s,box-shadow .2s var(--ease, cubic-bezier(0.16, 1, 0.3, 1))} .ds-entry:hover{border-color:var(--ink, #1a1a1a);box-shadow:0 10px 24px -18px rgba(0,0,0,.5)} .ds-entry:focus-visible{outline:2px solid var(--cyan-ink, #0077b0);outline-offset:2px} .ds-thumb{position:relative;display:grid;place-items:center;width:96px;height:96px;background:#fff;color:#1a1a1a;box-shadow:0 6px 14px -8px rgba(0,0,0,.35)} .ds-c{position:absolute;width:12px;height:12px;border:0 solid currentColor} .ds-c.tl{top:6px;left:6px;border-right-width:1px;border-bottom-width:1px} .ds-c.br{bottom:6px;right:6px;border-left-width:1px;border-top-width:1px} .ds-txt{display:grid;gap:4px} .ds-txt strong{font-size:20px;font-weight:750} .ds-txt span{color:var(--ink-2, #55585d)} .ds-open{display:inline-flex;align-items:center;gap:8px;font-weight:700}"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Press Proof",
+    "overview": "Passer is a press room. The page is a grey room; the form is a white job ticket pinned beside the press; the result is a registered proof sheet, square-cornered paper with crop marks, side registration targets, a colour control strip and a slug line that states the job in plain numbers. Every result is something you check before it goes to print, and the interface is built so that checking is the natural act: input, settings and the current proof sit in one screen, the proof is never behind a button.\n\nThe process inks are not decoration. They have jobs: cyan marks focus, magenta marks problems, yellow marks text selection, black marks what is chosen and the one primary action. Everything else is ink on white and grey, ruled with hairlines. One grotesque carries the whole system on a short ramp, with tabular numerals everywhere a measurement appears. Density is a working form's density: 42px controls, 14 to 18px gaps, no ornament between them.\n\nThe dark scheme turns the room charcoal and the ticket graphite, but the proof stays paper-white, because the proof shows what will print.",
+    "keyCharacteristics": [
+      "Grey room, white ticket, paper proof: three planes, each with one job.",
+      "Process inks as signals (C focus, M problem, Y selection, K choice), never as fills for decoration.",
+      "One grotesque (Hanken Grotesk), short ramp, tabular numerals globally.",
+      "Square paper, 8px controls: the only sharp corners belong to the proof.",
+      "A registration target is the brand mark, the favicon, the app icon and the proof's own furniture.",
+      "One signature motion: the proof re-registers on change; everything else is a 150ms state change."
+    ],
+    "rules": [
+      {
+        "name": "The Inks Have Jobs Rule",
+        "body": "Cyan is focus, magenta is a problem or something needing attention (an app update), yellow is selection, black is the choice. Outside those jobs a process ink appears only on the proof's control strip and registration ghosts, and on the registration mark itself (magenta on hover, the out-of-register ring in the app icon). If a new state needs colour, it takes the ink whose job it is or it stays neutral.",
+        "section": "colors"
+      },
+      {
+        "name": "The Paper Never Dims Rule",
+        "body": "The proof sheet and the index's proof thumbnails are paper-white with paper-ink in both schemes. Only the room and the ticket follow the colour scheme.",
+        "section": "colors"
+      },
+      {
+        "name": "The Tabular Rule",
+        "body": "Every number a person compares (pixels, modules, centimetres, ratios, dates, hex codes) is set in tabular figures. It is on by default at body level; never turn it off.",
+        "section": "typography"
+      },
+      {
+        "name": "The Only Paper Casts Rule",
+        "body": "Shadows belong to paper. Ticket controls, the header and the panels stay flat; state is shown with fill, border and ink, never with lift.",
+        "section": "elevation"
+      }
+    ],
+    "dos": [
+      "**Do** put every tool's result on a proof sheet: paper-white, square, crop marks, side registration targets, control strip and a slug line stating the job's numbers.",
+      "**Do** give each process ink only its job: cyan-ink for focus (2px outline), magenta for problems, yellow for text selection, Press Black for the selected option and the single primary action.",
+      "**Do** keep the proof paper-white (#ffffff) with #1a1a1a ink in the dark scheme too.",
+      "**Do** build choices as segmented ruled bars or ruled tiles with a solid Press Black selected state.",
+      "**Do** set every measurement in tabular figures and give numbers their units (px, modules, cm, %).",
+      "**Do** keep interface corners at 8px, chips at 5px, paper at 0.",
+      "**Do** use dashed 1px borders for \"not yet\" (empty proof, drop zone, disabled button) instead of fading with opacity.",
+      "**Do** draw new icons on the authored 24-unit grid with a 1.75 round-joined stroke."
+    ],
+    "donts": [
+      "**Don't** float the output in a rounded \"Output\" card or a second equal white panel; the result sits on the room as a proof.",
+      "**Don't** add shadows to ticket controls, panels or the header; only paper casts.",
+      "**Don't** use cyan, magenta or yellow as decorative fills, badges or accents outside their jobs, the control strip and the registration mark.",
+      "**Don't** add a second typeface; vary weight within Hanken Grotesk.",
+      "**Don't** animate anything but state changes (150ms) and the proof's re-registration; no motion under reduced motion.",
+      "**Don't** put an eyebrow or kicker above a heading; small uppercase type is reserved for fieldset section labels and the slug line."
+    ]
+  }
+}
