@@ -8,7 +8,7 @@ web
 
 ## Stack
 
-Delegated, with one binding constraint from the user: a lightweight UI framework is fine if it helps, but no sprawling npm dependency tree. Chosen: Vite + TypeScript + Preact (one runtime package, no dependencies of its own). The QR encoder is Rust compiled to WebAssembly without wasm-bindgen (cargo and the wasm32 target are installed); the compiled `.wasm` is committed so a normal build needs no Rust. Offline support comes from a small hand-written service worker whose precache list is generated at build time, not from workbox / vite-plugin-pwa (which would add hundreds of packages). Hosting: static files on all-inkl shared webspace (Apache, PHP available but unused), deployed over SSH by `deploy.sh`, same scheme as the sibling projects Tactus (`../music-tools`) and Essensplan.
+Delegated, with one binding constraint from the user: a lightweight UI framework is fine if it helps, but no sprawling npm dependency tree. Chosen: Vite + TypeScript + Preact (one runtime package, no dependencies of its own). The QR encoder is Rust compiled to WebAssembly without wasm-bindgen (cargo and the wasm32 target are installed); the compiled `.wasm` is committed so a normal build needs no Rust. Offline support comes from a small hand-written service worker whose precache list is generated at build time, not from workbox / vite-plugin-pwa (which would add hundreds of packages). Hosting: static files on an Apache web space over https; no server code, no database.
 
 ## Users
 

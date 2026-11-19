@@ -58,7 +58,7 @@ Offline mode needs a secure context: test it on `npm run preview` (localhost) or
 
 ## Hosting
 
-Static files on all-inkl (Apache). `./deploy.sh` (Git Bash) builds, sends `dist/` as one archive over one SSH connection, swaps it into `<DEPLOY_SSH_PATH>/public` and checks `version.txt`, the wasm MIME type and `/qr/` on the live domain. Settings live in `.env.deploy` (see `.env.deploy.example`). `public/.htaccess` sets https, the wasm MIME type, a strict CSP and cache headers.
+Passer is static files: serve `dist/` from any web server over https (offline mode and copying need a secure context). No server code, no database. On Apache, `public/.htaccess` (copied into `dist/`) sets the https redirect, the wasm MIME type, a strict CSP and cache headers; on other servers, serve `.wasm` as `application/wasm` and send `index.html` and `sw.js` with `Cache-Control: no-cache`.
 
 ## Docs
 

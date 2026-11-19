@@ -1,4 +1,4 @@
-# Passer on Apache (all-inkl). Static files only; the domain points at this folder.
+# Passer on Apache. Static files only; the domain points at this folder.
 # If a parent folder's .htaccess denies everything, this allows it again here.
 Require all granted
 Options -Indexes

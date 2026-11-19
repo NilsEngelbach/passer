@@ -2,9 +2,11 @@ node_modules/
 dist/
 .deploy/
 
-# Machine and hosting details stay local
+# Machine and hosting details stay local (public repository)
 LOCAL.md
+deploy.sh
 .env.deploy
+.env.deploy.example
 
 wasm/*/target/
 
